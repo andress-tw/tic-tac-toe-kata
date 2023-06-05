@@ -21,3 +21,5 @@ a game is over when all fields in a column are taken by a player
 a player can take a field if not already taken
 
 andres mob test
+
+cris mob test
