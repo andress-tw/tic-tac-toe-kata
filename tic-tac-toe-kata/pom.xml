@@ -28,6 +28,19 @@
   <build>
     <plugins>
       <plugin>
+        <groupId>org.pitest</groupId>
+        <artifactId>pitest-maven</artifactId>
+        <version>1.11.3</version>
+        <configuration>
+          <reportsDirectory>./pit-reports</reportsDirectory>
+          <outputFormats>
+            <param>HTML</param>
+            <param>XML</param>
+            <param>CSV</param>
+          </outputFormats>
+        </configuration>
+      </plugin>
+      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.5.1</version>

@@ -1,5 +1,6 @@
 # User-specific stuff
 .idea/
+pit-reports/
 
 tic-tac-toe-kata/dependency-reduced-pom.xml
 tic-tac-toe-kata/target/
