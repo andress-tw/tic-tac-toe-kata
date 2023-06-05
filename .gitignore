@@ -1,3 +1,5 @@
-	.idea/
-	tic-tac-toe-kata/dependency-reduced-pom.xml
-	tic-tac-toe-kata/target/
+# User-specific stuff
+.idea/
+
+tic-tac-toe-kata/dependency-reduced-pom.xml
+tic-tac-toe-kata/target/
