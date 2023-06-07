@@ -6,8 +6,10 @@ import org.junit.Test;
 public class GameBoardTest {
 
   @Test
-  public void gameShouldHave9Fields() {
+  public void gameBoardShouldHave3x3Grid() {
     GameBoard gameBoard = new GameBoard();
     Assert.assertEquals(9, gameBoard.getNumberOfFields());
   }
+
+
 }
