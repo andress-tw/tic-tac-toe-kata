@@ -2,10 +2,10 @@ package com.mobprogramming.kata;
 
 public class GameBoard {
 
-    private final String[][] grid;
+    private final FieldState[][] grid;
 
     public GameBoard() {
-        this.grid = new String[3][3];
+        this.grid = new FieldState[3][3];
     }
 
     public int getNumberOfFields() {
