@@ -4,13 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /** Unit test for simple App. */
-public class AppTest {
-
-  @Test
-  public void gameShouldHave9Fields() {
-    TicTacToe ticTacToe = new TicTacToe();
-    Assert.assertEquals(9, ticTacToe.getBoard().getNumberOfFields());
-  }
+public class TicTacToeTest {
 
   @Test
   public void gameBoardShouldNotBeNull() {
