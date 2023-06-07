@@ -23,7 +23,6 @@ public class AppTest
 
     public void gameShouldHave9Fields() {
         TicTacToe ticTacToe = new TicTacToe();
-
-        Assert.assertEquals();
+        Assert.assertEquals(9, ticTacToe.getBoard().getNumberOfFields());
     }
 }
