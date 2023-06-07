@@ -14,7 +14,7 @@ public class GameBoardTest {
   @Test
   public void getNonInitializedFieldShouldReturnNotSet(){
     GameBoard gameBoard = new GameBoard();
-    Assert.assertEquals(FieldState.NOT_SET, gameBoard.getNumberOfFields());
+    Assert.assertEquals(FieldState.NOT_SET, gameBoard.getField(0,0));
 
   }
 
