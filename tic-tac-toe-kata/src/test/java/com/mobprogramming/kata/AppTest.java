@@ -25,4 +25,9 @@ public class AppTest
         TicTacToe ticTacToe = new TicTacToe();
         Assert.assertEquals(9, ticTacToe.getBoard().getNumberOfFields());
     }
+
+    public void gameBoardShouldNotBeNull() {
+
+        Assert.assertNotNull();
+    }
 }
